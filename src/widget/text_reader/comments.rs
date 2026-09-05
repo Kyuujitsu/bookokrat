@@ -1543,7 +1543,7 @@ impl crate::markdown_text_reader::MarkdownTextReader {
 
     #[doc(hidden)]
     pub fn testing_rendered_lines(&self) -> &[RenderedLine] {
-        self.rendered_content.lines.as_slice()
+        self.rendered_lines()
     }
 }
 
